@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '逊呐';
-    if (score <= 99) return '哼哼哼';
-    if (score <= 149) return '你是一个一个一个';
+    if (score <= 49) return '不会吧不会吧，只有这么点么';
+    if (score <= 99) return '多少算一般了属于是';
+    if (score <= 149) return '小兰的速度';
     if (score <= 199) return '哼哼哼啊啊啊啊啊';
-    return '皮燕都撅烂了罢（恼';
+    return '皮燕都刺烂了罢（恼';
 }
 
 function toStr(obj) {
